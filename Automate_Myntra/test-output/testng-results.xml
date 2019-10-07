@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+    <line>
+      <![CDATA[Click on Men]]>
+    </line>
+    <line>
+      <![CDATA[Filters option is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Breadcrumb is displayed]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="2593" started-at="2019-10-05T14:16:49 IST" finished-at="2019-10-05T14:16:51 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="2593" started-at="2019-10-05T14:16:49 IST" finished-at="2019-10-05T14:16:51 IST">
+      <class name="com.mmt.testcases.FilterTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.mmt.testcases.FilterTest@32709393]" name="setUp" is-config="true" duration-ms="6367" started-at="2019-10-05T14:16:42 IST" finished-at="2019-10-05T14:16:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="NavigateToCategories()[pri:1, instance:com.mmt.testcases.FilterTest@32709393]" name="NavigateToCategories" duration-ms="1879" started-at="2019-10-05T14:16:49 IST" finished-at="2019-10-05T14:16:51 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Click on Men]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- NavigateToCategories -->
+        <test-method status="PASS" signature="ValidateFilters()[pri:2, instance:com.mmt.testcases.FilterTest@32709393]" name="ValidateFilters" duration-ms="35" started-at="2019-10-05T14:16:51 IST" finished-at="2019-10-05T14:16:51 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Filters option is displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- ValidateFilters -->
+        <test-method status="PASS" signature="ValidateDisplayedBreadCrumb()[pri:3, instance:com.mmt.testcases.FilterTest@32709393]" name="ValidateDisplayedBreadCrumb" duration-ms="22" started-at="2019-10-05T14:16:51 IST" finished-at="2019-10-05T14:16:51 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Breadcrumb is displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- ValidateDisplayedBreadCrumb -->
+        <test-method status="PASS" signature="ValidateSelectedFilters()[pri:4, instance:com.mmt.testcases.FilterTest@32709393]" name="ValidateSelectedFilters" duration-ms="615" started-at="2019-10-05T14:16:51 IST" finished-at="2019-10-05T14:16:51 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateSelectedFilters -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.mmt.testcases.FilterTest@32709393]" name="tearDown" is-config="true" duration-ms="1" started-at="2019-10-05T14:16:51 IST" finished-at="2019-10-05T14:16:51 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.mmt.testcases.FilterTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
